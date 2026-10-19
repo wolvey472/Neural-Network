@@ -40,7 +40,7 @@ hidden_layer = Layer([
 #Output
 
 output_layer = Layer([
-    Neuron(Weights= [ 0.4, 0.6, -0.2], bias=-0.1),
+    Neuron(weights= [ 0.4, 0.6, -0.2], bias=-0.1),
 ])
 
 inputs = torch.tensor([1.0, 2.0])
