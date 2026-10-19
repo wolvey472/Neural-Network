@@ -15,7 +15,7 @@ class Neuron:
 
         #combine incoming input
         total = weighted_inputs.sum() + self.bias
-        print(type(total))
+        
         # Activation keep positive values turn negative -> 0
         return torch.relu(total)
 
