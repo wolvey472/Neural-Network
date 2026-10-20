@@ -1,0 +1,12 @@
+import time as t
+import pyautogui as pg
+import random as rd
+
+
+
+text = str(input("TEXT: "))
+
+t.sleep(5)
+
+
+pg.write(message=text, interval=0.2)
